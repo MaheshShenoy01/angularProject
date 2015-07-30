@@ -1,12 +1,10 @@
-# currprj
+# AngularJs Project
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+angProject comprises Angular Concepts like Directives, Routes, Factories and services.
+Several apps are developed on a single container app. 
 
-## Build & development
+Current apps  
+************
+@login with firebaseDB
+@customized shopping cart admin
 
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
