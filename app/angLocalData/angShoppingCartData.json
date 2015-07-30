@@ -1,0 +1,106 @@
+	{
+	    "fruits": [{
+	        "name": "Apple-Fuji",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000003_7-fresho-apple-fuji.jpg",
+	        "price": 210
+	    }, {
+	        "name": "Orange-Navel",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000575_9-fresho-orange-naval.jpg",
+	        "price": 135
+	    }, {
+	        "name": "Grapes",
+	        "image": "http://bigbasket.com/media/uploads/p/s/30001108_1-fresho-fresh-dates.jpg",
+	        "price": 100
+	    }, {
+	        "name": "water Melon",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000207_11-fresho-water-melon-kiran.jpg",
+	        "price": 70
+	    }, {
+	        "name": "Guava",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000369_9-fresho-guava.jpg",
+	        "price": 80
+	    }, {
+	        "name": "Banana",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000345_13-fresho-banana-nendran.jpg",
+	        "price": 30
+	    }],
+
+	    "vegetables": [{
+	        "name": "Tomato",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000200_12-fresho-tomato-hybrid-grade-a.jpg",
+	        "price": 24
+	    }, {
+	        "name": "Potato",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000159_12-fresho-potato.jpg",
+	        "price": 20
+	    }, {
+	        "name": "Onion",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000148_11-fresho-onion-medium.jpg",
+	        "price": 39
+	    }, {
+	        "name": "Cauli Flower",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000074_12-fresho-cauliflower-medium-grade-a.jpg",
+	        "price": 19
+	    }, {
+	        "name": "Ginger",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000117_12-fresho-fresh-ginger-grade-a.jpg",
+	        "price": 13
+	    }, {
+	        "name": "Brinjal",
+	        "image": "http://bigbasket.com/media/uploads/p/s/10000053_13-fresho-brinjal-bottle-shape-grade-a.jpg",
+	        "price": 49
+	    }]
+	, 
+	    "Groceries": [{
+	        "name": "Aashirwad-Atta 5kg",
+	        "image": "http://bigbasket.com/media/uploads/p/s/126906_2-aashirvaad-atta-whole-wheat.jpg",
+	        "price": 210
+	    }, {
+	        "name": "Tata Salt 1kg",
+	        "image": "http://bigbasket.com/media/uploads/p/s/241600_1-tata-salt-iodized.jpg",
+	        "price": 20
+	    }, {
+	        "name": "Fortune-Rice Bran oil 1ltr",
+	        "image": "http://bigbasket.com/media/uploads/p/s/100647221_2-fortune-refined-oil-rice-bran.jpg",
+	        "price": 115
+	    }, {
+	        "name": "sugar 1kg",
+	        "image": "http://bigbasket.com/media/uploads/p/s/100342218_1-parrys-refined-sugar.jpg",
+	        "price": 57
+	    }, {
+	        "name": "Batter 1kg",
+	        "image": "http://bigbasket.com/media/uploads/p/s/271205_2-id-batter-idli-dosa.jpg",
+	        "price": 52
+	    }, {
+	        "name": "Basmati Rice classic 1kg",
+	        "image": "http://bigbasket.com/media/uploads/p/s/243336_1-india-gate-basmati-rice-classic.jpg",
+	        "price": 189
+	    }]
+	, 
+	    "snacks": [{
+	        "name": "Bakarwadi 200gm",
+	        "image": "http://bigbasket.com/media/uploads/p/s/264465_1-haldirams-namkeen-mini-bhakarwadi.jpg",
+	        "price": 45
+	    }, {
+	        "name": "Namkeen Khatta meeta 200gm",
+	        "image": "http://bigbasket.com/media/uploads/p/s/263125_1-haldirams-namkeen-khatta-meetha.jpg",
+	        "price": 30
+	    }, {
+	        "name": "samosa 200gm",
+	        "image": "http://bigbasket.com/media/uploads/p/s/264467_1-haldirams-namkeen-mini-samosa.jpg",
+	        "price": 50
+	    }, {
+	        "name": "kaju 200gm",
+	        "image": "http://bigbasket.com/media/uploads/p/s/264461_1-haldirams-namkeen-masala-kaju.jpg",
+	        "price": 80
+	    }, {
+	        "name": "Ground Nut 200gm",
+	        "image": "http://bigbasket.com/media/uploads/p/s/278657_1-gurujee-groundnut-masala.jpg",
+	        "price": 47
+	    }, {
+	        "name": "Banana-chips",
+	        "image": "http://bigbasket.com/media/uploads/p/s/278619_1-gurujee-chips-banana.jpg",
+	        "price": 30
+	    }]
+	}
+
