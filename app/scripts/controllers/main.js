@@ -7,7 +7,10 @@
  * Controller of the currprjApp
  */
 angular.module('currprjApp')
-    .controller('MainCtrl', ['$scope', 'angDataServiceFactory', 'angMenuDataServiceFactory', function($scope, angDataServiceFactory, angMenuDataServiceFactory) {
+    .controller('MainCtrl', ['$scope','$rootScope', 'angDataServiceFactory', 'angMenuDataServiceFactory', function($scope,$rootScope,angDataServiceFactory, angMenuDataServiceFactory) {
+        
+        $rootScope.MaintotalPrice=0;
+        $rootScope.mainBasket=[];
         angDataServiceFactory.getAngData()
             .then(function(response) {
                 $scope.angDatas = response.data;

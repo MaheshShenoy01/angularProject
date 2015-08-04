@@ -23,8 +23,7 @@
              templateUrl: 'views/angShoppingCartPanel.html',
              controller: 'angShoppingCartPanelController',
              link: function(scope, iElm, iAttrs, controller, trans) {
-                 scope.angscdatas = JSON.parse(iAttrs.angscdatas)
-                  console.log(scope.angscdatas);
+                 scope.angscdatas = JSON.parse(iAttrs.angscdatas);
                   scope.addTocart = function(obj){
                     scope.$emit('addTocart',obj);
                     
@@ -34,4 +33,5 @@
      });
 
 })();
+
 

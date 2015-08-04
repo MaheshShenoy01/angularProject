@@ -1,15 +1,27 @@
  <!-- Navigation -->
  <div class="shoppingCartMain">
     <nav class="navbar" role="navigation">
-        <div class="container-fluid">
+        <div class="container-fluid" >
             
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="#Home">Home</a>
                     </li>
-                    <li>
-                        <a href="#contact">contact</a>
-                    </li>
+                      <li ng-mouseover="show=true" ng-mouseleave="show=false">
+                       <a >Your Cart <span  class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a> 
+                         <div ng-show="show" class="container-fluid" id="myCart">
+                           
+                            <div class="img-container" ng-repeat="data in mainBasket track by $index">
+                                
+                                <img ng-src="{{data.image}}" alt="" >
+                                <p>{{data.name}}</p>
+                                <p>{{data.price}}</p>
+                            </div>
+                             <div>Your Items:{{mainBasket.length}}</div>
+                             <div class='prc'>Total:{{MaintotalPrice}}₹</div>
+                             <span>....</span>
+                        </div>
+                     </li>
                 </ul>
            
             <!-- /.navbar-collapse -->
@@ -18,12 +30,12 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="myCartMenu">
 
         <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">Ang Cart</p>
+                <p class="lead">Shop</p>
                 <div class="list-group">
                     <a href="#/angShoppingCart/fruits" class="list-group-item">Fruits</a>
                     <a href="#/angShoppingCart/vegetables" class="list-group-item">Vegetables</a>
@@ -42,9 +54,6 @@
         </div>
 
     </div>
-    <div class="container-fluid">
-     <div>Items in Basket:{{basket.length}}</div>
-     <div class='prc'>Total price of Basket:{{totalPrice}}</div>
-    </div>
+    
     <!-- /.container -->
 </div>
