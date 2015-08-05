@@ -25,19 +25,19 @@ angular.module('currprjApp', [
          controller:'angShoppingCartPanelController'
       })
        .when('/angShoppingCart/fruits', {
-        template:'<shoppingcart><panel angscdatas="{{fruits}}"></panel></shoppingcart>',
+        template:'<shoppingcart><panel angscdatas="{{fruits}}"><dropdownlist></dropdownlist></panel></shoppingcart>',
          controller:'angShoppingCartPanelController'
       })
        .when('/angShoppingCart/Groceries', {
-        template:'<shoppingcart><panel angscdatas="{{Groceries}}"></panel></shoppingcart>',
+        template:'<shoppingcart><panel angscdatas="{{Groceries}}"><dropdownlist></dropdownlist></panel></shoppingcart>',
          controller:'angShoppingCartPanelController'
       })
        .when('/angShoppingCart/vegetables', {
-        template:'<shoppingcart><panel angscdatas="{{vegetables}}"></panel></shoppingcart>',
+        template:'<shoppingcart><panel angscdatas="{{vegetables}}"><dropdownlist></dropdownlist></panel></shoppingcart>',
          controller:'angShoppingCartPanelController'
       })
        .when('/angShoppingCart/snacks', {
-        template:'<shoppingcart><panel angscdatas="{{snacks}}"></panel></shoppingcart>',
+        template:'<shoppingcart><panel angscdatas="{{snacks}}"><dropdownlist></dropdownlist></panel></shoppingcart>',
          controller:'angShoppingCartPanelController'
       })
       .otherwise({

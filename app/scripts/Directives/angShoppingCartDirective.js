@@ -10,9 +10,7 @@
 	   	 		controller:'angShoppingCartController'
 	   	 }
     });
-})();
 
-(function(){
 	 angular.module('currprjApp')
      .directive('panel', function(){
          return {
@@ -32,6 +30,18 @@
          }
      });
 
+
+
+
+    angular.module('currprjApp')
+     .directive('dropdownlist', function(){
+            return {
+                restrict: 'E',
+                require:"^panel",
+                scope:true,
+                templateUrl:'views/angShoppingCartDropDown.html'
+                
+
+            }
+        });
 })();
-
-

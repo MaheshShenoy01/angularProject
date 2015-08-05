@@ -3,14 +3,23 @@
 	        "name": "Apple-Fuji",
 	        "image": "http://bigbasket.com/media/uploads/p/s/10000003_7-fresho-apple-fuji.jpg",
 	        "price": 210,
-			    "quantity":[{
-    				   "name":"quantity",
-    				   "value":"250gm"
-			    }],
-    			"reviews":[{
-    					"name":"john",
+			    "quantity":[
+			    {
+    				   "description":"500gm",
+    				   "price":115
+    			},{
+    				   "description":"1kg",
+    				   "price":210
+    			}],
+    			"reviews":[
+    			{
+    					"user":"john",
     				    "description":"Apple fuji delivered in great ease",
     				    "stars":5
+    			},{
+    					"user":"Rob",
+    				    "description":"Rotten Apples Not recommended",
+    				    "stars":1
     			}]
 	    }, {
 	        "name": "Orange-Navel",

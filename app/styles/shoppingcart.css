@@ -43,7 +43,6 @@ margin:0 auto;
 	content:"";
     position:absolute; 
     z-index:-1;
-
     -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
     -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
     box-shadow:0 0 20px rgba(0,0,0,0.8);
@@ -63,4 +62,8 @@ margin:0 auto;
         -ms-transform:skew(8deg) rotate(3deg);     
          -o-transform:skew(8deg) rotate(3deg); 
             transform:skew(8deg) rotate(3deg);
+}
+
+#checkOut{
+    margin: 10px 10px 10px 10px;
 }
