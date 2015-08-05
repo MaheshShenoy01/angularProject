@@ -2,7 +2,16 @@
 	    "fruits": [{
 	        "name": "Apple-Fuji",
 	        "image": "http://bigbasket.com/media/uploads/p/s/10000003_7-fresho-apple-fuji.jpg",
-	        "price": 210
+	        "price": 210,
+			    "quantity":[{
+    				   "name":"quantity",
+    				   "value":"250gm"
+			    }],
+    			"reviews":[{
+    					"name":"john",
+    				    "description":"Apple fuji delivered in great ease",
+    				    "stars":5
+    			}]
 	    }, {
 	        "name": "Orange-Navel",
 	        "image": "http://bigbasket.com/media/uploads/p/s/10000575_9-fresho-orange-naval.jpg",
